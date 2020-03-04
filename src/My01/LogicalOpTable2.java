@@ -16,22 +16,22 @@ public class LogicalOpTable2 {
 
         System.out.print("1" + "\t" + "1" +"\t");
 
-        if ((p&q)==true)
+        if (p&q)
             System.out.print("1\t" );
         else
             System.out.print("0\t");
 
-        if ((p|q)==true)
+        if (p|q)
             System.out.print("1\t" );
         else
             System.out.print("0\t");
 
-        if ((p^q)==true)
+        if (p^q)
         System.out.print("1\t" );
         else
         System.out.print("0\t");
 
-        if ((!p)==true)
+        if (!p)
         System.out.println("1\t" );
         else
         System.out.println("0\t");
